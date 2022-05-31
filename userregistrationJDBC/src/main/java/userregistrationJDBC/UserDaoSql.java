@@ -25,7 +25,7 @@ public class UserDaoSql implements UserDAO {
 
 		final String url = "jdbc:mysql://users.cu2rzett61nl.us-west-1.rds.amazonaws.com:3306/user";
 		final String username = "root";
-		final String pass = "Amirouche060";
+		final String pass = "root";
 
 		try {
 			connection = DriverManager.getConnection(url, username, pass);
