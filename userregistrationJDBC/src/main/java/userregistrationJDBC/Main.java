@@ -8,18 +8,18 @@ public class Main {
 
 		UserDAO userDaoSql = new UserDaoSql();
 		
-//		userDaoSql.addUser(null);
-//		//Get all users
-//		userDaoSql.getUsers();
-////		//Get user by id 
-//		userDaoSql.getUserById(7);
-////		//Update user
-//		userDaoSql.updateUser(null);
-//		userDaoSql.getUsers();// To check the update of the user
-//
-//		// Delete user
-//		userDaoSql.deleteUser(null);
-//		userDaoSql.getUsers();// To check the deletion of the user
+		userDaoSql.addUser(null);
+		//Get all users
+		userDaoSql.getUsers();
+		//Get user by id 
+		userDaoSql.getUserById(7);
+		//Update user
+		userDaoSql.updateUser(null);
+		userDaoSql.getUsers();// To check the update of the user
+
+		// Delete user
+		userDaoSql.deleteUser(null);
+		userDaoSql.getUsers();// To check the deletion of the user
 
 	}
 
