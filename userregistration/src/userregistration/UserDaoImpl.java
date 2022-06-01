@@ -47,34 +47,13 @@ class UserDaoImpl implements UserDAO {
 		System.out.println("Email user updated ");
 	}
 
-	@Override
-	public void deleteUser(User user) {
-		users.remove(user.getId());
+	
 
-	}
-
-	@Override
-	public void addUser(User user) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("First name:");
-		String fname = sc.next();
-		System.out.println("Last name:");
-		String lname = sc.next();
-		System.out.println("Phome number:");
-		String phn = sc.next();
-		System.out.println("Email  :");
-		String email = sc.next();
-		System.out.println("User name:");
-		String uname = sc.next();
-		System.out.println("\nAge    :\n");
-		int age = sc.nextInt();
-		System.out.println("\nid   :\n");
-		int id = sc.nextInt();
-		users.add(new User(fname, lname, phn, email, uname, age, id));
-
-	}
+	
+	
+	
 
 
-	}
+	
 
 }
