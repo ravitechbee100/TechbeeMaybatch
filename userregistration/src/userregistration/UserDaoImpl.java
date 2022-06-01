@@ -74,29 +74,7 @@ class UserDaoImpl implements UserDAO {
 
 	}
 
-//	@Override
-//	public void addUser(User user) {
-//		for (User usr : users) {
-//			
-//			System.out.println("________ADD A USER ________");
-//			Scanner sc = new Scanner(System.in);
-//			System.out.println("First name:");
-//			String fname=sc.next();
-//			System.out.println("Last name:");
-//			String lname=sc.next();
-//			System.out.println("Phome number:");
-//			String phn=sc.next();
-//			System.out.println("Wmail  :");
-//			String email=sc.next();
-//			System.out.println("User name:");
-//			String uname=sc.next();
-//			System.out.println("Age    :");
-//			int age=sc.nextInt();
-//			System.out.println("id   :");
-//			int id=sc.nextInt();
-//			users.add(new User(fname,lname,phn,email,uname,age,id));
-//		}
-//
-//	}
+
+	}
 
 }
