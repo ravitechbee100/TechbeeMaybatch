@@ -27,11 +27,11 @@ public class MamoClient {
 	}
 	
 	@PostMapping("/addproduct")
-	public void addproducts(@RequestBody ProductList product) {
+	public ResponseEntity addproducts(@RequestBody ProductList product) {
 		
 	//write the code for this method.
 		productDAO.addProduct(product);
-		
+		return ResponseEntity.ok(HttpStatus.OK);
 		
 	}
 	
