@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.ebay.tests.TestHomePage
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.693 s <<< FAILURE! - in com.ebay.tests.TestHomePage
+electronicSelectionTest(com.ebay.tests.TestHomePage)  Time elapsed: 3.2 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+tab crashed
+  (Session info: chrome=102.0.5005.61)
+Build info: version: '4.2.1', revision: 'ac4d0fdd4a'
+System info: host: 'Amirouches-MacBook-Pro.local', ip: '2601:642:4380:c070:9cb1:94e5:fd1a:6b7e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_281'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [33b747678cd7947b4461cb1c0039b99b, getElementText {id=6e454d50-8325-4dd5-a097-d1a20a30b726}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.61, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: /var/folders/xh/s_c1x8q17vq...}, goog:chromeOptions: {debuggerAddress: localhost:49536}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:49536/devtoo..., se:cdpVersion: 102.0.5005.61, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (33b747678cd7947b4461cb1c0039b99b)] -> xpath: //*[@id="gh-sbc"]/tbody/tr/td[2]/h3[1]/a]
+Session ID: 33b747678cd7947b4461cb1c0039b99b
+	at com.ebay.tests.TestHomePage.electronicSelectionTest(TestHomePage.java:40)
+
